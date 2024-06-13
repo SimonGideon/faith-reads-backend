@@ -21,6 +21,12 @@ gem 'devise'
 # devise jwt
 gem 'devise-jwt'
 
+# CORSE for cross origin
+gem 'rack-cors'
+
+# Use Redis adapter to run Action Cable in production
+gem "redis", ">= 4.0.1"
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
 
